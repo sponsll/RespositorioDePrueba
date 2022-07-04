@@ -1,4 +1,14 @@
-import logo from './logo.svg';
+import Articulo from './Articulo';
+
+function App() {
+  return <Articulo />
+    
+}
+  
+export default App;
+
+
+/*import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -22,4 +32,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;*/
