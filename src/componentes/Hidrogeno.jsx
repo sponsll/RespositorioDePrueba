@@ -16,7 +16,7 @@ class Hidrogeno extends React.PureComponent{
           <p>Las baterías de Hidrogeno, es una alternativa muy interesante a las baterías electricas.</p>
           <img style={ styles } 
           src='https://www.magnuscmd.com/wp-content/uploads/2019/06/Featured.jpg' alt=''></img>
-          <Autonomia km='500km' />
+          <Autonomia km={ 500 } />
           <Carga carga='En el futuro'/>
         </div>  
       )
