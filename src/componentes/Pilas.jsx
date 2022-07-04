@@ -1,4 +1,6 @@
 import React from 'react';
+import Autonomia from './Autonomia';
+import Carga from './Carga';
 
 function PilasConvencionales() {
     return (
@@ -9,6 +11,8 @@ function PilasConvencionales() {
                 las pilas convencionales siguen utilizandose a diario.
             </p>
             <br />
+            <Autonomia km='Con este tipo de batería no se puede' />
+            <Carga carga='No'/>
         </div>
     );
     

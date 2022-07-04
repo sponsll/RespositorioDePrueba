@@ -1,4 +1,6 @@
 import React from 'react';
+import Autonomia from './Autonomia';
+import Carga from './Carga';
 
 function BateriasLitio() {
     return (
@@ -8,7 +10,8 @@ function BateriasLitio() {
             Gracias a las nuevas tecnologias que afectan a las baterías, 
             la autonomía de los coches eléctricos está aumentando a pasos agigantados.
             </p>
-            <br />
+            <Autonomia km='400km' />
+            <Carga carga='No'/>
         </div>
     );
 }
