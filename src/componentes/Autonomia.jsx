@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import propType from 'prop-type';
 
 class Autonomia extends Component{
   
@@ -9,6 +10,10 @@ class Autonomia extends Component{
         </ul>
       )
     }
+  }
+
+  Autonomia.propType = {
+    km: propType.number.isRequired
   }
   
   export default Autonomia;

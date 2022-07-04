@@ -12,7 +12,7 @@ function PilasConvencionales() {
             </p>
             <br />
             <Autonomia km='Con este tipo de batería no se puede' />
-            <Carga carga='No'/>
+            <Carga carga='Sí'/>
         </div>
     );
     

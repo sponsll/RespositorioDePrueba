@@ -17,7 +17,7 @@ class Hidrogeno extends React.PureComponent{
           <img style={ styles } 
           src='https://www.magnuscmd.com/wp-content/uploads/2019/06/Featured.jpg' alt=''></img>
           <Autonomia km='500km' />
-          <Carga carga='No'/>
+          <Carga carga='En el futuro'/>
         </div>  
       )
     }
